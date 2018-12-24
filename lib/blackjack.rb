@@ -38,6 +38,8 @@ def hit?(card_total)
     elsif h_or_s = "s"
       card_total
     else 
+      invalid_command
+  end
 end
 
 def invalid_command
